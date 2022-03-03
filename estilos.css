@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url('logo.jpg');
+	background-color: #3a1f1f bi;
+	color: #16c700;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 50%;
+	position: relative;
+	text-align: center;
+	background-position: center;
+	
+	
+}
+
+header{
+	width: 100%;
+	
+}
+
+.navegacion{
+	width: 1120px;
+	height: 70px;
+	margin: 20px auto;
+	background: #16c700;
+	
+}
+
+.navegacion ul{
+	list-style: none;
+	
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+	
+
+}
+
+.menu > li > a{
+	display: block;
+	padding: 26px 100px;
+	color: #ffffff;
+	font-family: 'Open sans';
+	text-decoration: none;
+	margin-left: 0px;
+	margin-right: 0px;
+	
+}
+
+.menu li a:hover{
+	background:  #000085;
+	transition: all .3s;
+	
+}
+
+/* Submenu*/
+
+.submenu{
+	position: absolute;
+	background: #16c700;
+	width: 100%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+	
+}
+
+.submenu li a{
+	display: block;
+	padding: 10px;
+	color: rgb(255, 246, 246);
+	font-family: 'Open sans';
+	text-decoration: none;
+	background: #16c700;
+	
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+	
+}
+

@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Registro de Gerentes</title>
+        <link rel="stylesheet" type="text/css" href="estilos2.css">
+    </head>
+    <body>
+        
+        <ul class="menu">
+            <li><a href="index.html"><b>Inicio</b></a></li>
+
+        </ul>
+
+        <section class="form-register">
+            <section class="ho">
+                <label for="ho"><b> Registro de Cita</b></label>
+            </section>
+            <form action="agendarCitas.php" method="POST">
+              
+                
+                <label for="Gerentes"></label>
+                    <select name="Gerentes"  class="option" required>
+                        <option value="Elegir">Seleccione el gerente</option>
+                        <option value="Elena Martinez">Elena Martinez</option>
+                        <option value="Jaime Rivas Barragan">Jaime Rivas Barragan</option>
+                        <option value="Jaime Rivas Campell">Jaime Rivas Campell</option>
+                        <option value="Javier Gomez">Javier Gomez</option>
+                        <option value="Mario Rivas Barragan">Mario Rivas Barragan</option>
+                        <option value="Mario Rivas Tamez">Mario Rivas Tamez</option>
+                        <option value="Rosendo Zavala">Rosendo Zavala</option>
+                        <option value="Salvador Farias">Salvador Farias</option>
+                        <option value="Yuliana Soria">Yuliana Soria</option>
+                    </select>
+            
+                <input class="controls" type="date" name="Fecha" id="fecha" placeholder="Seleccione el día de la visita" required>
+                <input class="controls" type="time" name="Hora" id="hora" placeholder="Seleccione la hora de la visita" required>
+                <input class="controls" type="text" name="Visita" id="visita" placeholder="Ingrese el nombre del visitante" required>
+                <input class="controls" type="text" name="Asunto" id="asunto" placeholder="Ingrese el asunto de la visita" required>
+                <input class="controls" type="number" name="Personas" id="persona" placeholder="Número de personas que visitan" required>
+
+                <select name="Status" class="option" required>
+                    <option value="Elegir">Elegir el status</option>
+                    <option value="Pendiente">Pendiente</option>
+                    <option value="Completada">Completada</option>
+                </select>
+
+                <section class="check">
+                    <input class="check" type="checkbox" name="Correo" id="correo" placeholder="Notificación por correo">
+                </section>
+                
+                <section class="correo">
+                    <label for="correo"><b>Recordatorio por correo</b></label>
+                </section>
+                
+            
+                <div>
+                    <button type="submit" class="botons" name="enviar">Agendar cita</button>
+                    <link rel="stylesheet" type="email" href="Correo.php">
+                </div>
+            </form>
+    
+    </body>
+</html>

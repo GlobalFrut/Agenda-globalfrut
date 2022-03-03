@@ -1,0 +1,221 @@
+body{
+    background: #fdfdfd;
+    font:  arial, arial;
+    
+ 
+}
+.rellenar{
+    background-color: #ffffff;
+    margin-left: 750px;
+    
+    
+}
+.menu{
+    width: 1113px;
+	height: 70px;
+	margin: 20px auto;
+	background: #16c700;
+    color: #ffffff;
+}
+.menu li a{
+    text-decoration: solid;
+    color: rgb(255, 255, 255);
+    padding: 26px;
+    display: block;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+
+.menu li a:hover{
+    background: #ef8354;
+    transition: all .3s;
+    text-align: center;
+    
+}
+ 
+/*Panel de registro*/
+.form-register{
+    width: 700px;
+    background: #e5ebe8;
+    padding: 5%;
+    margin: auto;
+    margin-top: 10px;
+    font-family: 'calibri';
+    color: rgb(0, 0, 0);
+    box-shadow: 7px 13px 37px #000000;
+  
+}
+
+.controls{
+    width: 50%;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-family: 'arial' rgb(255, 255, 255);
+    font-size: 14px;
+    margin-left: 25%;
+    
+}
+.form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 100px;
+    
+}
+.form-register a:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    
+    
+}
+.form-register .botons{
+    width: 40%;
+    background: #000085;
+    border: none;
+    padding: 10px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    margin-left: 34%;
+}
+
+/*seleccion de menu*/
+.menu li a:hover{
+    background: #000085;
+    transition: all .3s;
+    padding: 26px;
+    font-size: 100%;
+    
+}
+/*elegir gerente¨*/
+.option{
+    background: #d1d7dd;
+    width: 53.5%;
+    padding: 2%;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-family: 'arial';
+    margin-left: 25%;
+    font-size: 90%;
+    
+}
+.ho{
+    width: 100%;
+    padding: 1%;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 0px;
+    font-size: 200%;
+    text-align: center;
+    margin-left: auto;
+    
+}
+.controls a{
+    width: 110%;
+}
+.correo{
+    width: 50%;
+    margin-left: 42%;
+    margin-top: -24px;
+    font-size: 130%;
+    
+}
+.check{
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 17%;
+}
+.ho2{
+ 
+    width: 100%;
+    padding: 1%;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    font-family:  Garamond;
+    margin-top: 0px;
+    font-size: 200%;
+    text-align: center;
+    margin-left: auto;
+    
+}
+
+table{
+    background-color: #07bb10;
+    text-align: left;
+    width: 52%;
+    text-align: center;
+    margin-left: 24%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  
+  
+}
+.jeje{
+    border: solid 3px #000085;
+}
+.je{
+    border: solid 0px #000085;
+}
+
+th, td{
+ 
+    padding: 15px;
+    
+    
+}
+.thead{
+    background-color: #ffffff;
+    border-bottom: solid 5px #ffffff;
+    color: white;
+   
+}
+tr:nth-child(even){
+    background-color: rgb(255, 255, 255);
+    
+}
+tr:hover td{
+    background-color: #000085;
+    color: rgb(255, 255, 255);
+    
+}
+.botons{
+    background-color: #000085;
+    margin-left: 100px;
+    
+}
+
+.botones{
+    color: #000000;
+    
+}
+.rell{
+    background-color: #45b345;
+    width: 4%;
+    height: 3.9%;
+    text-align: center;
+    margin-left: 6%;
+    border: solid 2px #000085;
+}
+.actuali{
+    background-color: #000085;
+    font-family: 'New Times Roman';
+    font-size: 18px;
+    height: 3.9%;
+    color: rgb(255, 255, 255);
+    border: solid  #000085;
+    width: 12%;
+    
+    
+}
+.opciones{
+    background-color: #16c700;
+    font-size: 14px;
+    border: solid 2px #000085;
+}
